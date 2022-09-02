@@ -15,9 +15,7 @@ const Btn = (props) => {
     modal.classList.remove('hide');
     
     if(!modal.classList.contains('hide')) {
-      app.addEventListener('click', () => {
-        modal.classList.add('hide');
-      });
+      app.addEventListener('click', () => { modal.classList.add('hide'); });
     }
   };
 

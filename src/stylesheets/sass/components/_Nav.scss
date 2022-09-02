@@ -35,7 +35,7 @@
     background: #fff;
     // tablet
     @media (min-width: 768px) {
-      display: flex;
+      display: flex !important;
       background: none;
       height: 56px;
       width: 467px;

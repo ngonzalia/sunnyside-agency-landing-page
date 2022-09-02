@@ -9,6 +9,11 @@ const Nav = () => {
   const showLinks = () => {
     const nav = document.getElementById('nav');
     nav.classList.toggle('hide');
+
+    const app = document.getElementById('app');
+    if(!nav.classList.contains('hide')) {
+      app.addEventListener('click', () => { nav.classList.add('hide') })
+    }
   };
 
   const redirect = () => {
@@ -32,7 +37,7 @@ const Nav = () => {
           className='nav__toggle-img'
           onClick={showLinks} />
       </button>
-      <div id='nav' className='nav__links scale-in-ver-top'>
+      <div id='nav' className='nav__links hide scale-in-ver-top'>
         <div id='triangle' className='triangle'></div>
         <ul>
           <li><a href={deadLink} className='nav__links--link barlow w600 center gray'>About</a></li>

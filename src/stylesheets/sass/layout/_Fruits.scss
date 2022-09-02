@@ -18,8 +18,8 @@
       height: 600px;
     }
     &--cherry {
-      background-image: url('../assets/mobile/image-graphic-design.jpg');
-      background-repeat: round;
+      background: url('../assets/mobile/image-graphic-design.jpg');
+      background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       // desktop
@@ -30,7 +30,7 @@
     }
     &--orange {
       background-image: url('../assets/mobile/image-photography.jpg');
-      background-repeat: round;
+      background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       // desktop
