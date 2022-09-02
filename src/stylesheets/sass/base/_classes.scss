@@ -1,0 +1,72 @@
+// fonts
+.barlow {
+  font-family: 'Barlow', sans-serif;
+}
+.fraunces {
+  font-family: 'Fraunces', sans-serif;
+}
+
+
+// weights
+.w600 {
+  font-weight: 600;
+}
+.w700 {
+  font-weight: 700;
+}
+.w900 {
+  font-weight: 900;
+}
+
+
+// colors
+.dark-blue {
+  color: #24303e;
+}
+.gray {
+  color: #808397;
+}
+.light-gray {
+  color: #a7aaad;
+}
+.white {
+  color: #fff;
+}
+.green {
+  color: #24554a;
+}
+.blue {
+  color: #052C3b;
+  opacity: .75 !important;
+}
+.lightblue {
+  color: #19536c;
+}
+.blue-metal {
+  color: #5B636D;
+}
+.wintergreen {
+  color: #458d7e;
+}
+
+
+// position
+.center {
+  text-align: center;
+}
+.start-desktop {
+  // desktop
+  @media (min-width: 1024px) {
+    text-align: start !important;
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+
+// styles
+.opacity-1 {
+  opacity: 1 !important;
+}

@@ -1,0 +1,17 @@
+// base
+@import './sass/base/reset';
+@import './sass/base/typhography';
+@import './sass/base/classes';
+
+// layout
+@import './sass/layout/Hero';
+@import './sass/layout/Gallery';
+@import './sass/layout/Fruits';
+@import './sass/layout/Testimonials';
+@import './sass/layout/GalleryBottom';
+@import './sass/layout/Footer';
+
+// components
+@import './sass/components/Nav';
+@import './sass/components/Gallery-card';
+@import './sass/components/Modal';

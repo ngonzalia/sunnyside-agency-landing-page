@@ -1,0 +1,72 @@
+.fruits {
+
+  // tablet
+  @media (min-width: 768px) {
+    display: flex;
+    width: 100%;
+  }
+
+  &__container {
+    height: 600px;
+    // mobile xl
+    @media (min-width: 576px) {
+      height: 800px;
+    }
+    // tablet
+    @media (min-width: 768px) {
+      width: 50%;
+      height: 600px;
+    }
+    &--cherry {
+      background-image: url('../assets/mobile/image-graphic-design.jpg');
+      background-repeat: round;
+      background-size: cover;
+      background-position: center;
+      // desktop
+      @media (min-width: 1024px) {
+        background-image: url('../assets/desktop/image-graphic-design.jpg');
+        background-repeat: no-repeat;
+      }
+    }
+    &--orange {
+      background-image: url('../assets/mobile/image-photography.jpg');
+      background-repeat: round;
+      background-size: cover;
+      background-position: center;
+      // desktop
+      @media (min-width: 1024px) {
+        background-image: url('../assets/desktop/image-photography.jpg');
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  &__card {
+    padding: 398px 0 59px 0;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    margin: 0 auto;
+    // mobile xl
+    @media (min-width: 576px) {
+      padding-top: 598px;
+    }
+    // tablet
+    @media (min-width: 768px) {
+      padding-top: 398px;
+    }
+  }
+  &__title {
+    font-size: 1.75rem;
+    line-height: 2.188rem;
+    letter-spacing: -.013rem;
+  }
+  &__text {
+    font-size: 1rem;
+    line-height: 1.688rem;
+    letter-spacing: -.007rem;
+  }
+}

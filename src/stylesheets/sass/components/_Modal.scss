@@ -1,0 +1,27 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+  width: 80%;
+  position: fixed;
+  top: 5%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: -3px 1px 29px 9px rgba(0,0,0,0.34);
+  -webkit-box-shadow: -3px 1px 29px 9px rgba(0,0,0,0.34);
+  -moz-box-shadow: -3px 1px 29px 9px rgba(0,0,0,0.34);
+  z-index: 1 !important;
+
+  // talbet
+  @media (min-width: 768px) {
+    gap: 50px;
+    padding: 80px 60px;
+  }
+  // desktop
+  @media (min-width: 1024px) {
+    gap: 100px;
+  }
+}
